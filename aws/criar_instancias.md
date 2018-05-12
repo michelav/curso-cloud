@@ -30,3 +30,9 @@ deixar assim;
 5. Revise as configurações (atente para a *free tier*) e lance a instância;
 
 6. Use o arquivo de certificado para acessar a máquina por meio do ssh e configurá-la conforme necessário.
+
+
+Para instalar qualquer pacote, basta usaro yum. No exemplo abaixo, estamos instalando o servidor Apache.
+
+    $ sudo yum install httpd24
+
