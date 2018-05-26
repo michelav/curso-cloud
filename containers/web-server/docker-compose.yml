@@ -1,0 +1,8 @@
+version: "3"
+services:
+  web:
+    image: my_site
+    deploy:
+        replicas: 4
+    ports:
+      - "7777:80"
